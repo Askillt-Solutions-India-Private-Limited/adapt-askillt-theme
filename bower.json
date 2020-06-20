@@ -1,0 +1,24 @@
+{
+  "name": "adapt-askillt-theme",
+  "version": "0.1.0",
+  "framework": ">=5.2",
+  "homepage": "https://github.com/adaptlearning/adapt-askillt-theme",
+  "issues": "https://github.com/adaptlearning/adapt_framework/issues/new",
+  "theme": "askillt",
+  "displayName": "Askillt",
+  "description": "An ASKILLT theme",
+  "main": "js/theme.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "targetAttribute": "_askillt"
+}
