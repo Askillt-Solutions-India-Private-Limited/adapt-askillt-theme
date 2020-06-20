@@ -1,24 +1,12 @@
 # adapt-askillt-theme
 
-**ASKILLT** is a *theme* bundled with the [Adapt framework](https://github.com/Askillt-Solutions-India-Private-Limited/adapt_framework).
-
 <img src="assets/askillt-theme.png" alt="sample colors from the ASKILLT theme">
 
-It provides specific values to styles, including colors, padding, margins, and assets such as fonts and background images. [Visit the **ASKILLT** wiki](https://github.com/Askillt-Solutions-India-Private-Limited/adapt-askillt-theme/wiki) for more information about its functionality and for explanations of key properties.
+It provides specific values to styles, including colors, padding, margins, and assets such as fonts and background images.
 
 ## Installation
 
-As Adapt's *[core theme](https://github.com/Askillt-Solutions-India-Private-Limited/adapt_framework/wiki/Core-Plug-ins-in-the-Adapt-Learning-Framework#theme),* **ASKILLT** is included with the [installation of the Adapt framework](https://github.com/Askillt-Solutions-India-Private-Limited/adapt_framework/wiki/Manual-installation-of-the-Adapt-framework#installation) and the [installation of the Adapt authoring tool](https://github.com/Askillt-Solutions-India-Private-Limited/adapt_authoring/wiki/Installing-Adapt-Origin).
-
-* If **ASKILLT** has been uninstalled from the Adapt framework, it may be reinstalled.
-With the [Adapt CLI](https://github.com/Askillt-Solutions-India-Private-Limited/adapt-cli) installed, run the following from the command line:
-`adapt install adapt-askillt-theme`
-
-    Alternatively, this component can also be installed by adding the following line of code to the *adapt.json* file:
-    `"adapt-askillt-theme": "*"`
-    Then running the command:
-    `adapt install`
-    (This second method will reinstall all plug-ins listed in *adapt.json*.)
+Download the ZIP and extract into the src > theme directory and run an appropriate Grunt task.
 
 * If **ASKILLT** has been uninstalled from the Adapt authoring tool, it may be reinstalled using the [Plug-in Manager](https://github.com/Askillt-Solutions-India-Private-Limited/adapt_authoring/wiki/Plugin-Manager).
 
@@ -33,7 +21,7 @@ Unlike most Adapt plug-ins, the **ASKILLT** theme has no attributes that are req
 
 The **ASKILLT** theme also exposes [*colour variables*](https://github.com/Askillt-Solutions-India-Private-Limited/adapt-askillt-theme/blob/master/less/_defaults/colors.less) in the Adapt authoring tool for theme editing. This feature allows you to apply and save 'preset' theme styles.
 
-**\_vanilla** (object): The following attributes configure the defaults for **ASKILLT**. These include **\_backgroundImage**, **\_backgroundStyles** and **\_minimumHeights**. Global attributes are available at page, article and block level.
+**\_askillt** (object): The following attributes configure the defaults for **ASKILLT**. These include **\_backgroundImage**, **\_backgroundStyles** and **\_minimumHeights**. Global attributes are available at page, article and block level.
 
 #### Global background image
 >**\_backgroundImage** (object): The backgroundImage object that contains values for **\_large**, **\_medium** and **\_small**.
